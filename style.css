@@ -1,0 +1,77 @@
+
+.body{
+    background-color: rgba(255, 255, 207, 0.555);
+}
+.cabeca{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+.container {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    
+}
+.secao {
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    width: 710px;
+}
+.artigo {
+    text-align: center;
+    font-size: 15px;
+    width: 700px;
+}
+.pe{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    text-align: left 355px;
+    
+}
+.foot{
+    width: 710px;
+    text-align: center;
+}
+#reas{
+    opacity: 0.5;
+}
+#video{
+    padding-left: 16px;
+}
+a:link {
+    color: black;
+}
+a:visited{
+    color: orangered;
+}
+a:hover{
+    color: silver;
+    cursor: pointer;
+}
+a:active{
+    color: yellow;
+}
+span {
+    font-size: xx-large;
+    width: 229px;
+    padding: 20px;
+    background-color: rgba(151, 115, 70, 0.521);
+    color: beige;
+    font-family: Arial;
+}
+span:hover {
+    animation-name: mudacor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes mudacor {
+    0% { background-color: rgba(151, 115, 70, 0.521); color:beige }
+    50% { background-color: beige; color:rgba(151, 115, 70, 0.521) }
+    100% { background-color: rgba(151, 115, 70, 0.521); color:beige }
+}
